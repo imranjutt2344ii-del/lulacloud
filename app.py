@@ -83,7 +83,7 @@ else:
 
                     # Call Veo 3.1 model
                     operation = client.models.generate_videos(
-                        model="veo-2.0-generate-001",
+                        model="veo-3.1-generate-preview`",
                         prompt=prompt if prompt.strip() else None,
                         image=image_input,
                         config=config,
