@@ -1,4 +1,4 @@
-```python
+
 import time
 import streamlit as st
 from google import genai
@@ -60,4 +60,4 @@ if st.button("Generate Video 🚀", use_container_width=True, type="primary"):
 
             except Exception as e:
                 st.error(f"Generation error: {e}")
-```
+
